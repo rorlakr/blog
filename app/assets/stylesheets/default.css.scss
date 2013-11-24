@@ -1,0 +1,45 @@
+// 로고 색상 설정
+$logo-color: #999999;
+
+// body 태그의 스타일 설정
+body {
+  // 폰트 변경
+  font-family: "나눔고딕", NanumGothic, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+// hr 태그의 스타일 설정
+hr {
+  // 상하 마진 20픽셀, 좌우 가운데 정렬
+  margin: 20px 0;
+  // 선 두께 0
+  border: 0;
+  // 위쪽 선두께 1픽셀, 선, 색상 코드 eeeeee
+  border-top: 1px solid #eeeeee;
+  // 아래쪽 선두께 1픽셀, 선, 색상 흰색
+  border-bottom: 1px solid white;
+}
+
+// .container 클래스의 스타일 설정
+.container {
+  // 상하 마진 20픽셀, 좌우 가운데 정렬
+  margin: 20px auto;
+  // 좌우 크기를 최대 700픽셀로 제한
+  max-width: 700px;
+}
+
+// logo 클래스의 스타일 설정
+.logo {
+  // 폰트 두껍게 설정
+  font-weight: bold;
+  // logo 클래스 하위의 a 태그 스타일 설정
+  a {
+    // 글자 색상 설정
+    color: $logo-color;
+    // 텍스트 스타일 설정
+    text-decoration: none;
+  }
+}
+
+.footer {
+  color: $logo-color;
+}
