@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "프로젝트 작성하기"
-date:   2013-11-27 12:52:20
+date:   0000-02-02
 categories: tutorial
 ---
 
